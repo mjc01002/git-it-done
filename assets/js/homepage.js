@@ -90,6 +90,6 @@ if (repos[i].open_issues_count > 0) {
 // append to container
 repoEl.appendChild(statusEl);
   // append container to the dom
-  repoContainerEl.appendChild(repoEl);
+  repoContainerEl.appendChild(repoEl)
 }
   };
